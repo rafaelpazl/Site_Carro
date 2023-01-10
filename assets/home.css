@@ -11,7 +11,7 @@ body{
     z-index: 9;
     
 }
-@media only screen and (max-width: 991px){
+@media screen and (max-width: 991px){
   .navbar {
     background-color: black !important;
   }
@@ -43,7 +43,7 @@ nav.ativo{
 }
 .banner {
     width: 100%;
-    min-height: 80vh;
+    height: 80vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@ nav.ativo{
     object-fit: cover;
     width: 100%;
   }
-  @media only screen and (max-width: 400px){
+  @media screen and (max-width: 900px){
     .navbar {
       height: 20vh;
     }
@@ -72,7 +72,7 @@ nav.ativo{
   .banner .content {
     position: relative;
     z-index: 1;
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
   }
@@ -85,7 +85,7 @@ nav.ativo{
     font-size: 150%;
     color: #ffff;
   }
-  @media only screen and (max-width: 625px){
+  @media screen and (max-width: 625px){
     .banner .content h1 {
       font-size: 200%;
       text-transform: uppercase;
@@ -104,7 +104,7 @@ nav.ativo{
 }
 .videoYTitem{
     border: 1px solid black;
-    border-radius: 20px; 
+    border-radius: 3%; 
 }
 
 .parte1 .banner2{
@@ -136,6 +136,7 @@ nav.ativo{
   position: relative;
 top: 40%;
 transform: translateY(-40%); 
+margin-bottom: 10%;
 }
 .parte1text p{
   display: flex;
@@ -165,13 +166,15 @@ transform: translateY(-50%);
   position: relative;
 top: 40%;
 transform: translateY(-40%); 
+margin-bottom: 10%;
 }
 .parte2text p{
   display: flex;
   align-items: flex-end;
   position: relative;
 top: 50%;
-transform: translateY(-50%); 
+transform: translateY(-50%);
+margin-bottom: 20%;
 }
 .banner3{
   margin: 0;
