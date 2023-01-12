@@ -9,6 +9,7 @@ body{
 .navbar{
     width: 100%;
     z-index: 9;
+    position: sticky;
 }
 .itensnav{
     display: flex;
@@ -35,10 +36,13 @@ nav.ativo{
   nav.ativo ul li a{
     color: white !important;
 }
-.mainpage3{
-    margin-top: 15%;
+.title {
+    font-size: 350%;
+    text-align: center;
+    padding: 5%;
+    font-weight: 900;
+    border-bottom: 5px solid #000;
 }
-
 .anuncioCarro{
     width: 90%;
     background: #FF2B32;
